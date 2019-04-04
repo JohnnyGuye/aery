@@ -1,0 +1,50 @@
+<nav class="navbar"  [class.reduced]="reduceNavbar">
+
+   <div class="inner-section">
+      <div [class.container]="!reduceSearchBar" [class.container-fluid]="reduceSearchBar" style="padding-top: 0px;">
+      <div class="row">
+         <div style="text-align:center" [class.col-md-3]="reduceSearchBar" [class.col-md-12]="!reduceSearchBar">
+         <h1 class="main-title">
+            Lena Ng
+         </h1>
+      </div>
+      <div [class.col-md-7]="reduceSearchBar" [class.col-md-12]="!reduceSearchBar">
+      <div>
+      </div>
+   </div>
+   </div>
+   </div>
+   </div>
+</nav>
+
+<section class="gap-filler" #content [class.reduced]="reduceNavbar"></section>
+
+<section class="container" style="padding-top: 200px;">
+  <p>
+    Léna NG débute la danse classique et contemporaine très tôt dans la région Nantaise.
+    En 2012 elle intègre le Conservatoire à Rayonnement Régional de Nantes en discipline contemporaine dans lequel elle poursuivra à partir de 2014 des études aménagées avec son lycée.
+    En 2016 elle obtient son Examen d’Aptitude Technique de Danse Contemporaine à Bordeaux.
+  </p>
+  <p>
+    Plus tard, Léna intègre l’INSA Lyon, une école d’ingénieur, où elle rejoint la Section Sport de Haut Niveau qui lui permet un aménagement de scolarité et un soutien pour ses divers
+    <a href="https://www.insa-lyon.fr/fr/actualites/au-dela-mots-lena-seduit-avec-sa-danse" target="blank">projets artistiques</a>.
+    Ainsi, elle poursuit en parallèle la formation du danseur interprète au Centre de Formation désoblique à Lyon durant 2 ans.
+  </p>
+  <p>
+    Après avoir chorégraphié un solo <b>Au-delà des mots</b> primé en 2018 par le Crous (2) ainsi que <b>Aspect</b>, un spectacle pour 6 danseurs,
+    Léna débute sa carrière professionnelle en intégrant la <i>Compagnie 39-50</i> et la <i>Compagnie La Nuit Noire</i>.
+    Elle travaille également pour le musicien <i>Gérard Vandenbroucque</i> (3) en collaboration avec le <i>Théoriz Studio</i> (4).
+    En 2019, Léna et <a href="johnnyyuge.eu" target="blank"> Quentin "Johnny" Guye</a> fondent le Groupe Aery dans le but d’une création jeune public.
+  </p>
+  <p>
+    Passionnée par les arts et le mouvement dansé, Léna débute sa carrière dans un travail caractérisé par la recherche du mouvement libre et expressif au travers de toutes ses cellules.
+    </p>
+</section>
+
+<section class="container">
+  <div>
+  </div>
+  <div>
+    <show *ngFor="let show of shows" [show]="show"></show>
+  </div>
+</section>
