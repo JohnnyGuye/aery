@@ -17,3 +17,11 @@ a:hover {
   text-decoration: none;
   font-style: italic;
 }
+
+#wind {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  opacity: 1;
+}

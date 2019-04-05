@@ -11,6 +11,7 @@ export class ShowComponent implements OnInit {
   @Input()
   show: Show
 
+  toggleVideo: boolean = false;
   constructor() { }
 
   ngOnInit() {

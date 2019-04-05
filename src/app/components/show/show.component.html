@@ -23,10 +23,10 @@
         <div class="row">
           <div
           class="image-shadow"
-          style="margin: auto;"
+          style="margin: auto; max-width: 90%;max-height: 500px; overflow: "
             >
           <img *ngIf="show.pictureLink"
-            style="max-width: 300px;"
+            style="max-width: 100%; height: auto"
             [src]="show.pictureLink"
             />
           </div>
@@ -34,9 +34,12 @@
         <br/>
         <a *ngIf="show.picturesLink"  href="{{show.picturesLink}}" target="blank">Plus de photos</a>
       </div>
-        <div *ngIf="show.videoLink">
-        <iframe width="560" height="315" [src]="show.videoLink | safe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <button class="video-button"*ngIf="show.videoLink" (click)="toggleVideo = !toggleVideo">Video</button>
+      <div *ngIf="show.videoLink" class="video-container" [class.show-video]="toggleVideo">
+        <div class="video-appear" >
+          <iframe style="height: 100%; width: 100%;"  [src]="show.videoLink | safe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+      </div>
     </div>
   </div>
 </div>
