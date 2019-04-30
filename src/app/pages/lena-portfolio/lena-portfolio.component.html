@@ -1,11 +1,12 @@
-<nav class="navbar"  [class.reduced]="reduceNavbar">
+<nav class="navbar"  [class.reduced]="reduceNavbar" >
 
   <div class="inner-section">
     <div class="container" style="padding-top: 0px;">
       <div class="row" style="text-align:center" >
         <div class="col-sm-4">
           <h1 class="main-title">
-          Léna Ng
+            <a href="#lena" style="color: inherit">
+          Léna Ng</a>
           </h1>
         </div>
         <div  class="col-sm-8" *ngIf="reduceNavbar" >
@@ -17,6 +18,9 @@
               <li class="nav-item">
                 <a class="nav-link head-section" href="#creations" (click)="listDisplayed = 'wip'" [class.head-section-clicked]="listDisplayed == 'wip'">Projets en cours</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
             </ul>
           </div>
 
@@ -26,13 +30,14 @@
   </div>
 </nav>
 
-<section class="gap-filler" #content [class.reduced]="reduceNavbar"></section>
+<section id="lena" class="gap-filler" #content [class.reduced]="reduceNavbar"></section>
 
 <section class="container" style="padding-top: 200px;">
   <h1>Qui suis je ?</h1>
   <div class="show-container">
     <div class="bg-blurry"></div>
     <div class="foreground">
+      <!-- <p [innerHtml]="'LENA.ME.p1' | translate "></p> -->
       <p>
         Léna NG débute la danse classique et contemporaine très tôt dans la région Nantaise.
         En 2012 elle intègre le Conservatoire à Rayonnement Régional de Nantes en discipline contemporaine dans lequel elle poursuivra à partir de 2014 des études aménagées avec son lycée.
@@ -67,3 +72,34 @@
 
 <creations-list [hide]="listDisplayed != 'past'" [creationLink]="'./assets/previous-creation.json'"></creations-list>
 <creations-list [hide]="listDisplayed != 'wip'" [creationLink]="'./assets/wip-creation.json'"></creations-list>
+
+<section class="container" style="padding-top: 200px">
+    <h1>Contacts</h1>
+    <div class="show-container">
+      <div class="bg-blurry"></div>
+      <div class="foreground">
+        <div class="row">
+          <div class="col-sm-4">
+            Téléphone:
+          </div>
+          <div class="col-sm-8">+33 6 49 30 15 26</div>
+          <div class="col-sm-4">
+            Mail:
+          </div>
+          <div class="col-sm-8">
+            <a href="mailto:lena.ng.pu@gmail.com">lena.ng.pu@gmail.com</a>
+          </div>
+          <div class="col-sm-4">
+            Curriculum Vitae:
+          </div>
+          <div class="col-sm-8">
+            <a href="https://drive.google.com/file/d/1luP32ARYpKZo-cVdguawLTl8C5K-u13f/view">Français</a>
+             -
+            <a href="https://drive.google.com/file/d/1wdKDnksaGYuTxjgHZHHAzV5mewazFfsO/view?usp=sharing">English</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="container" style="padding-top: 200px" id="contacts"></section>

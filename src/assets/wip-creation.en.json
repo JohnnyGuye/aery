@@ -1,0 +1,87 @@
+{
+  "creations": [
+    {
+      "title": "Groupe Aery ",
+      "description": "Supported by 39-50 Company, this artistic duo is composed of Johnny Guye (musician and software engineer) and Léna NG. They began with the creation of the show MILLE. They are currently working on the making of a show for young audiences that will be on stage in 2020.<br/>A sensitive mix between music, digital art and dance, aiming to awaken the senses, the sense of wonder, sensitivity of a young audience.</p>",
+      "participants": {
+        "choregraphy and dance": ["Léna NG"],
+        "music": ["Quentin 'Johnny' Guye"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157692620700232",
+      "pictureLink": "https://live.staticflickr.com/7856/33607847528_eaae0740f5.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Gérard Vandenbroucque - Cécilia Nguyen Van Long - Théoriz Studio.",
+      "description": "<p class='indent'>Creation of a performance based on the music of the violinist Gérard Vandenbroucque. He is accompanied by two dancers Cécilia Nguyen Van Long and Léna NG and put into perspective by the members of the Théoriz Studio (digital arts). <br/>2nd residence in April.</p>",
+      "website": "https://www.theoriz.com/fr/",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157680004871038",
+      "pictureLink": "https://live.staticflickr.com/65535/46753299635_3fd7897375.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Tutti",
+      "description": "<p class='indent'>15-minutes show for 5 dancers, led by Clément Ducourneau (dancer, musician and actor) in close collaboration with the EIME (Ensemble Instrumental de Montluel et Environs) and also with the Octuor (string players, mostly from the INSA Lyon symphony orchestra).</p><p class='indent'>Tutti plays and explores the definition of the group. What is it like to meet, to form a group? How to introduce yourself? Which image do we reflect as a group? How are we improving together? The dancers search for and discover themselves through the movement and a music written by Arthur Barlerin.</p>",
+      "participants": {
+        "technical creation": ["Mathieu Richelmy", "Margaux Richard", "Clément Favier", "Léa Ernou."],
+        "musician": ["Arthur Barlerin"],
+        "dance": ["Laura Delande", "Clément Ducourneau", "Léna NG", "Thu-Sang Nguyen", "Matthis Silas Lainé"]
+      },
+      "website": "",
+      "videoLink": "https://www.youtube.com/embed/lpsPD0mDXqc",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157691033754663",
+      "pictureLink": "https://live.staticflickr.com/65535/47669153161_f9d93f395b.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Cie La Nuit Noire - Libellule ",
+      "description": "<p class=’indent’>Contemporary theatre play written by Olivier Vial.<br/>1st residence in April 2019. 2nd residence in June 2019.</p>",
+      "participants": {
+        "directors": ["Olivier Vial","Anna Deleuil"],
+        "dance": ["Léna NG"],
+        "actors": ["Toandry Le-Gacy", "Juliette Hgr", "Etienne Bidaux"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157667909933398",
+      "pictureLink": "https://live.staticflickr.com/7856/46761123854_ba0ec29028.jpg",
+      "start": "",
+      "end": ""
+    },
+
+    {
+      "title": "Cie 39-50",
+      "description": "<p class=’indent>Duo currently created by Claire Lurin and Léna NG </p> <p class=’indent’>This creation is a continuation of their creation \"Duet\" (2018), a mixture of contemporary dance and accro-dance. A show still in development  around different themes. </p><p>First residence in September 2019. On stage in summer 2020.</p>",
+      "participants": {
+        "choregraphy and danse": ["Claire Lurin","Léna NG"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157708029518595",
+      "pictureLink": "https://live.staticflickr.com/7918/32542496757_0ef48076e1.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Poings",
+      "description": "<p class='indent'>Theatrical adaptation of the book \"Poings\" by Pauline Peyrade.</p><p>On stage in December 2019</p>",
+      "participants": {
+        "directors": ["Ombeline Dodeman","Anna Deleuil"],
+        "actirs": ["Pierre Ripoll", "Amandine Derbes", "Léna NG"],
+        "technical creation": ["Mathieu Richelmy", "Laurent Turpin"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "",
+      "pictureLink": "",
+      "start": "",
+      "end": ""
+    }
+  ]
+}

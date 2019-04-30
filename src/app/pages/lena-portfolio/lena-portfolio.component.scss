@@ -63,6 +63,12 @@
   position: relative;
 }
 
+.main-title a:hover {
+  color: #111;
+  text-decoration: none;
+  font-style:normal;
+}
+
 .main-title::after{
   // content: '.';
   color: #fff1;
