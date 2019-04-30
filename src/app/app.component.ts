@@ -10,8 +10,10 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     let c = document.getElementById("wind")
-    c.style.transition = "opacity 2s"
-    c.style.opacity = "0"
-    setTimeout(() => { c.style.display = "none" }, 2000)
+    setTimeout(()=> {
+      c.style.transition = "opacity 2s"
+      c.style.opacity = "0"
+      setTimeout(() => { c.style.display = "none" }, 2000)
+    }, 3000)
   }
 }

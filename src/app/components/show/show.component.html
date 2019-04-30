@@ -10,7 +10,7 @@
           <div class="row" *ngFor="let entry of show.participants | mapToIterable">
 
             <div class="col-sm-4">
-              <strong style="text-transform: capitalize">{{entry.key}} : </strong>
+              <i style="text-transform: capitalize; font-size: 0.8em; font-color: grey">{{entry.key}} : </i>
             </div>
             <div class="col-sm-8" style="white-space: normal;">
               <span *ngFor="let person of entry.value" style="padding-right: 20px; white-space: nowrap; display: inline-block;">{{person}}</span>

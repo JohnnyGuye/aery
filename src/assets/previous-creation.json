@@ -3,9 +3,23 @@
     {
       "title": "Aspect",
       "description": "<p class='indent'>Aspect est un spectacle de 30 minutes pour 6 danseurs. Chorégraphié par Léna NG. Il s’agit d’un spectacle qui joue sur le genre féminin et masculin, des rapports humains influencés par le sexe de l’autre.</p><p class='indent'> Quelle place prend la femme dans une foule ? dans un couple ? avec une autre femme ? Notre genre est-il uniquement défini par notre sexe ?</p>",
+      "representations": [
+        "Hôtel de Ville de Lyon",
+        "La Rotonde (INSA Lyon)",
+        "L’Astrée (Université Lyon 1)",
+        "la Marmite (Karnaval Humanitaire de l'INSA)"
+      ],
       "participants": {
         "chorégraphie": ["Léna NG"],
-        "danse": ["Clément Ducourneau", "Claire Lurin", "Célestin Matte", "Léna NG", "Louna Richard", "Kainoa Archer"]
+        "danse": [
+          "Clément Ducourneau",
+          "Claire Lurin",
+          "Célestin Matte",
+          "Léna NG",
+          "Louna Richard",
+          "Kainoa Archer"
+        ],
+        "creation technique": ["Lucas Moniotte, Lauriane Bret"]
       },
       "website": "",
       "videoLink": "",
@@ -17,6 +31,10 @@
     {
       "title": "Cellular Dance",
       "description": "<p class='indent'>CellularDance est une création artistique sur le thème du remplacement de l'être humain par la machine. Cinq danseurs et danseuses de la section Danse-Etudes de l'INSA de Lyon composent autour de différents tableaux chorégraphiques où s’entremêlent présent et futur proche, oppression et libération, humain et virtuel.</p><p class='indent'>Grâce à une caméra de type Kinect, les mouvements des danseurs sont captés et modifient la projection utilisée en fond de scène. Ainsi, ils sont immergés et vous emmènent avec eux. Illusions, poésie, psychédélisme, tout devient possible !</p>",
+      "representations": [
+        "Amphitéâtre 3000 (Lyon)",
+        "La Rotonde (INSA Lyon)"
+      ],
       "participants": {
         "danseurs": [
           "Camille Bouniol",
@@ -40,6 +58,11 @@
       "participants": {
         "chorégraphie et danse": ["Léna NG"]
       },
+      "representations": [
+        "Maison des étudiants (Poitiers)",
+        "La Rotonde (INSA Lyon)",
+        "Musée des Arts et Métiers (Paris)"
+      ],
       "website": "",
       "videoLink": "https://player.vimeo.com/video/207154856",
       "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157707607471195",
@@ -54,6 +77,10 @@
         "danseurs": ["Danse-etudes de l'INSA Lyon"],
         "musiciens": ["Ilan Crequer", "Lorenzo Del Cerro", "Quentin 'Johnny' Guye", "Sebastien Millo", "Thoephile Lem", "Thierry Ronget"]
       },
+      "representations": [
+        "Maison de la Danse (Lyon)",
+        "L’Astrée (Université Lyon 1)"
+      ],
       "website": "",
       "videoLink": "",
       "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157667909933398",
@@ -61,13 +88,17 @@
       "start": "",
       "end": ""
     },
-    
+
     {
       "title": "Perspectives",
       "description": "<p class=’indent>En tant qu’Homme, quel est notre positionnement dans l’espace, le temps, le rapport à l’autre ? Travailler avec l’architecture et les contrastes spatiaux qu’elle propose… Faire confiance dans la chute pour se (re)trouver ailleurs. </p> <p class=’indent’>Une création chorégraphique dirigée par la Compagne Désoblique mettant en scène les élèves de la section danse-étude de l’INSA Lyon, également en collaboration avec la section musique-étude et technique-étude de l’INSA Lyon.</p>",
       "participants": {
-        "chorégraphie": ["Compagnie Désoblique"]
+        "chorégraphie": ["Compagnie Désoblique"],
+        "danseurs": ["Danse-etudes de l'INSA Lyon"]
       },
+      "representations": [
+        "La Rotonde (INSA Lyon)"
+      ],
       "website": "",
       "videoLink": "",
       "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157689984730140 ",
@@ -76,15 +107,52 @@
       "end": ""
     },
     {
+      "title": "Mille",
+      "description": "<p class='indent'>\"Tester, répéter, peaufiner, amplifier... . Quelle force ? Quelle intensité ? Jusqu'où ? Comment et pourquoi ?<br/>Y a-t-il un sens à tout cela ?<br/>Au plaisir de la musique et de la danse. Nous explorons avec passion.\"</p>",
+      "participants": {
+        "danse et chorégraphie" : ["Léna Ng"],
+        "musique": ["Quentin 'Johnny' Guye"],
+        "creation lumière": ["Lauriane Bret"]
+      },
+      "representations": [
+        "Rotonde (INSA Lyon)",
+        "Double Mixte (Lyon)"
+      ],
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157679592318628",
+      "pictureLink":"https://live.staticflickr.com/7856/33607847528_eaae0740f5.jpg",
+      "videoLink": "https://www.youtube.com/embed/O1sVy4uvAKo"
+    },
+    {
       "title": "Duet",
       "description": "<p class='indent'>J'ai plein d'idées, je suis pleine d'envies. Toi, moi, juste nous, semblables mais distinctes, à chacune sa veste. J'ai envie qu'on retourne, qu'on fasse sourire rouge et pleurer bleu, qu'on donne envie de fuir, qu'on attire. Tu es ma moitié. J'ai beaucoup d'amour pour toi, un amour fraternel, qui détruit un peu et construit beaucoup. Je veux te montrer des chemins, que tu me voies m'égarer, je veux qu'on se guide, qu'on s'engueule, qu'on s'amoche bleu, qu'on s'adore rouge, qu'on traverse douleurs et désirs, silences et passions. Tu es ma plus fidèle concurrente et ma plus belle conquête. Toi, tu remplis mes souvenirs, tu peuples mon passé ; on s'accorde et on se désaccorde, et pourtant, l'unisson est toujours présent.</p> <p>Musiques de Valentin Stip : Correlation // Nwia</p>",
       "participants": {
         "chorégraphie et Danse": ["Léna NG", "Claire Lurin"]
       },
+      "representations": [
+        "TedX à La Rotonde (INSA Lyon)",
+        "Karnaval Humanitaire (INSA Lyon)"
+      ],
       "website": "",
       "videoLink": "https://www.youtube.com/embed/BGZmoH_786M",
       "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157690620934403",
       "pictureLink": "https://live.staticflickr.com/7910/46569170735_cf6e29bc60.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Corbeaux",
+      "description": "<p class='indent'>Représentation de la pièce <a href='https://www.bouchraouizguen.com/corbeaux'>Corbeaux de Bouchra Ouizguen</a> - Compagnie Ô  lors de la Biennale de La Danse de Lyon de 2017. Participation volontaire sur sélection.</p>",
+      "participants": {
+        "chorégraphie et Danse": ["Léna NG", "Claire Lurin"]
+      },
+      "representations": [
+        "Musée des Confluences", "Amphithéâtre des Trois Gaules",
+        "TNP (Villeurbanne)"
+      ],
+      "website": "",
+      "videoLink": "https://www.youtube.com/embed/BGZmoH_786M",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157704629711112",
+      "pictureLink": "https://live.staticflickr.com/65535/46719696515_442b1a1451.jpg",
       "start": "",
       "end": ""
     }

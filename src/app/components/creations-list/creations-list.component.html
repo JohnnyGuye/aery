@@ -1,0 +1,5 @@
+<section class="container">
+  <div *ngIf="!hide">
+    <show *ngFor="let show of shows" [show]="show"></show>
+  </div>
+</section>

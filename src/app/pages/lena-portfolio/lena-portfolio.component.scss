@@ -23,7 +23,21 @@
   height: 70px;
   font-size: 1em;
   box-shadow: #68686b 0px 0px 10px 0px;
-  background: radial-gradient(ellipse at center, #d89f6999 0%, #d89f6999 100%);
+  // background: radial-gradient(ellipse at center, #d89f6999 0%, #d89f6999 100%);
+  background-image: url(https://live.staticflickr.com/891/41523178931_b58544e221_k.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter:contrast(0.8) sepia(1.10) brightness(100%) ;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+.nav-item {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .gap-filler {
@@ -75,6 +89,17 @@
 
 p {
   text-indent: 20px;
+}
+
+.head-section {
+  opacity: 0.5;
+  transition: 0.25s all;
+  text-shadow: 0 0 7px white;
+}
+
+.head-section-clicked {
+  opacity: 1;
+  text-shadow: 0 0 7px white;
 }
 
 .show-container {

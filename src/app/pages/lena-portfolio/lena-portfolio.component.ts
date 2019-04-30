@@ -13,8 +13,7 @@ export class LenaPortfolioComponent implements OnInit {
   content: ElementRef
 
   shows: Show[] = []
-  // @ViewChild("searchSection")
-  // gapfiller: ElementRef
+  listDisplayed = "past"
 
   reduceNavbar: boolean = false;
 
@@ -31,31 +30,7 @@ export class LenaPortfolioComponent implements OnInit {
   constructor( private http: HttpClient ) { }
 
   ngOnInit() {
-    this.http.get("./assets/previous-creation.json")
-      .subscribe(
-        r => {
-          for(let creation of r["creations"]) {
-            let show = new Show()
-            show.title = creation["title"]
-            show.description = creation["description"]
-            show.website = creation["website"]
-            show.videoLink = creation["videoLink"]
-            show.picturesLink = creation["picturesLink"]
-            show.pictureLink = creation["pictureLink"] || ""
-            show.start = new Date(creation["start"])
-            show.end = new Date(creation["end"])
-            let par = new Map<string, string[]>()
-            for(let p in creation["participants"])
-              par.set( p, creation["participants"][p] )
-            show.participants = par
-            // show.participants = creation["participants"]
-            console.log( show.participants, creation["participants"] )
-            this.shows.push( show )
-          }
-          console.log( this.shows )
-        },
-        e => console.error(e)
-      )
+
   }
 
 }

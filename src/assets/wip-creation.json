@@ -1,0 +1,97 @@
+{
+  "creations": [
+    {
+      "title": "Groupe Aery ",
+      "description": "Soutenu par la Cie 39-50, ce duo artistique composé de Johnny Guye (musicien, ingénieur informatique) et de Léna NG, débute avec la création du spectacle MILLE. Ils travaillent actuellement dans la conception/construction/élaboration d’un spectacle jeune public qui sera sur scène en 2020.<br/> Un mélange sensible entre musique, art numérique et danse, visant à l’éveil des sens, l’émerveillement, l’évocation, la sensibilité d’un public jeune. </p>",
+      "participants": {
+        "chorégraphie et danse": ["Léna NG"],
+        "composition et interpretation musicale": ["Quentin 'Johnny' Guye"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157692620700232",
+      "pictureLink": "https://live.staticflickr.com/7856/33607847528_eaae0740f5.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Gérard Vandenbroucque - Cécilia Nguyen Van Long - Théoriz Studio.",
+      "description": "<p class='indent'>Création d’un spectacle autour de la musique du violoniste Gérard Vandenbroucque accompagné par deux danseuses Cécilia Nguyen Van Long et Léna NG et mis en perspectives par les membres du Théoriz Studio (arts numériques).<br/>Prochaine résidence en Avril</p>",
+      "participants": {
+        "danseurs": [
+          "Camille Bouniol",
+          "Célestin Matte",
+          "Léna NG",
+          "Margot Larue",
+          "Noémie Pernin"
+        ],
+        "technicien lumière": ["Quentin 'Johnny' Guye"]
+      },
+      "website": "https://www.theoriz.com/fr/",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157680004871038",
+      "pictureLink": "https://live.staticflickr.com/65535/46753299635_3fd7897375.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Tutti",
+      "description": "<p class='indent'>Spectacle de 15 minutes pour 5 danseurs, mené par Clément Ducourneau (danseur et comédien) en collaboration proche avec l’EIME (Ensemble Instrumental de Montluel et Environs) et également avec l’Octuor (instrumentistes à corde pour la plupart issus de l'orchestre symphonique de l'INSA Lyon).</p><p class='indent'>Tutti joue et explore la définition du groupe. Qu'est-ce que se rencontrer pour former un collectif ? Comment se présenter ? Quelle image l'on renvoie en tant que collectif ? Comment avançons nous ensemble ? Les danseurs se cherchent et se découvrent au travers du mouvement sous une partition musicale écrite par Arthur Barlerin.</p>",
+      "participants": {
+        "creation technique": ["Mathieu Richelmy", "Margaux Richard", "Clément Favier", "Léa Ernou."],
+        "musique": ["Arthur Barlerin"],
+        "danse": ["Laura Delande", "Clément Ducourneau", "Léna NG", "Thu-Sang Nguyen", "Matthis Silas Lainé"]
+      },
+      "website": "",
+      "videoLink": "https://www.youtube.com/embed/lpsPD0mDXqc",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157691033754663",
+      "pictureLink": "https://live.staticflickr.com/65535/47669153161_f9d93f395b.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Cie La Nuit Noire - Libellule ",
+      "description": "<p class=’indent’>Pièce de théâtre contemporaine écrite par Olivier Vial.<br/>1e résidence en avril 2019. 2e résidence en juin 2019.</p>",
+      "participants": {
+        "mise en scène": ["Olivier Vial","Anna Deleuil"],
+        "danse": ["Léna NG"],
+        "comédie": ["Toandry Le-Gacy", "Juliette Hgr", "Etienne Bidaux"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/albums/72157667909933398",
+      "pictureLink": "https://live.staticflickr.com/7856/46761123854_ba0ec29028.jpg",
+      "start": "",
+      "end": ""
+    },
+
+    {
+      "title": "Cie 39-50",
+      "description": "<p class=’indent>Duo en création par Claire Lurin et Léna NG</p> <p class=’indent’>Cette création vient dans la continuité de leur création “Duet” (2018), un mélange entre danse contemporaine et accrodanse. Un spectacle en construction autour de différentes thématiques.</p><p>1ère résidence en septembre 2019. Sur scènes en été 2020</p>",
+      "participants": {
+        "chorégraphie et danse": ["Claire Lurin","Léna NG"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "https://www.flickr.com/photos/156668501@N04/sets/72157708029518595",
+      "pictureLink": "https://live.staticflickr.com/7918/32542496757_0ef48076e1.jpg",
+      "start": "",
+      "end": ""
+    },
+    {
+      "title": "Poings",
+      "description": "<p class='indent'>Adaptation théâtrale du livre “Poings” de Pauline Peyrade.</p><p>Sur scène en décembre 2019</p>",
+      "participants": {
+        "mise en scène": ["Ombeline Dodeman","Anna Deleuil"],
+        "comédie": ["Pierre Ripoll", "Amandine Derbes", "Léna NG"],
+        "creation technique": ["Mathieu Richelmy", "Laurent Turpin"]
+      },
+      "website": "",
+      "videoLink": "",
+      "picturesLink": "",
+      "pictureLink": "",
+      "start": "",
+      "end": ""
+    }
+  ]
+}
