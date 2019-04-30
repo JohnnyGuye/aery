@@ -8,4 +8,5 @@ export class Show {
   videoLink: string                   = ""
   picturesLink: string                = ""
   pictureLink: string                 = ""
+	representations: string[]						= []
 }

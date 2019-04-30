@@ -50,6 +50,7 @@ export class CreationsListComponent implements OnInit {
             show.pictureLink = creation["pictureLink"] || ""
             show.start = new Date(creation["start"])
             show.end = new Date(creation["end"])
+						show.representations = creation["representations"] || []
             let par = new Map<string, string[]>()
             for(let p in creation["participants"])
               par.set( p, creation["participants"][p] )
