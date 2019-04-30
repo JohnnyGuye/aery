@@ -46,9 +46,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 export class AppModule {
 
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('fr')
+    this.translate.setDefaultLang('en')
 
-    translate.use('fr')
+    translate.use('en')
   }
 
 }

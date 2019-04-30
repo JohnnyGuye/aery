@@ -56,7 +56,7 @@ export class CreationsListComponent implements OnInit {
               par.set( p, creation["participants"][p] )
             show.participants = par
             // show.participants = creation["participants"]
-            console.log( show.participants, creation["participants"] )
+            // console.log( show.participants, creation["participants"] )
             newShows.push( show )
           }
           if( cl == this._creationLink)
