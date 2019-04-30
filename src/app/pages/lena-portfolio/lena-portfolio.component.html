@@ -6,17 +6,17 @@
         <div class="col-sm-4">
           <h1 class="main-title">
             <a href="#lena" style="color: inherit">
-          Léna Ng</a>
+          Léna&nbsp;Ng</a>
           </h1>
         </div>
         <div  class="col-sm-8" *ngIf="reduceNavbar" >
           <div class="navbar-nav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link head-section" href="#creations" (click)="listDisplayed = 'past'" [class.head-section-clicked]="listDisplayed == 'past'" >Créations passées</a>
+                <a class="nav-link head-section" href="#creations" (click)="listDisplayed = 'past'" [class.head-section-clicked]="listDisplayed == 'past'" >Previous creations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link head-section" href="#creations" (click)="listDisplayed = 'wip'" [class.head-section-clicked]="listDisplayed == 'wip'">Projets en cours</a>
+                <a class="nav-link head-section" href="#creations" (click)="listDisplayed = 'wip'" [class.head-section-clicked]="listDisplayed == 'wip'">Work in progress</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contacts">Contacts</a>
@@ -36,27 +36,20 @@
   <h1>Qui suis je ?</h1>
   <div class="show-container">
     <div class="bg-blurry"></div>
-    <div class="foreground">
+    <div class="foreground"><p class='indent'>CellularDance is an artistic creation on the theme of replacing human by machines. Five dancers from the Dance-Studies section of INSA Lyon evolve in various choreographic scenes where present and near future, oppression and liberation, human and virtual are intertwined. 	</p><p class='indent'>Thanks to a Kinect camera, the dancers' movements are captured and modify the background projection. By this way they are immersed and take you with them. Illusions, poetry, psychedelia, everything becomes possible!</p>
       <!-- <p [innerHtml]="'LENA.ME.p1' | translate "></p> -->
       <p>
-        Léna NG débute la danse classique et contemporaine très tôt dans la région Nantaise.
-        En 2012 elle intègre le Conservatoire à Rayonnement Régional de Nantes en discipline contemporaine dans lequel elle poursuivra à partir de 2014 des études aménagées avec son lycée.
-        En 2016 elle obtient son Examen d’Aptitude Technique de Danse Contemporaine à Bordeaux.
+        Léna NG began studying classical and contemporary dance in Nantes. In 2012, she joined the Nantes conservatory mainly studying the contemporary discipline. From 2014, she adapted her school studies in collaboration with the Dance Conservatory to enable her to improve her Dance skills. In 2016, she obtained her Technical Aptitude Examination in Contemporary Dance in Bordeaux.
       </p>
       <p>
-        Plus tard, Léna intègre l’INSA Lyon, une école d’ingénieur, où elle rejoint la Section Sport de Haut Niveau qui lui permet un aménagement de scolarité et un soutien pour ses divers
-        <a href="https://www.insa-lyon.fr/fr/actualites/au-dela-mots-lena-seduit-avec-sa-danse" target="blank">projets artistiques</a>.
-        Ainsi, elle poursuit en parallèle la formation du danseur interprète au Centre de Formation désoblique à Lyon durant 2 ans.
+        Later, Léna entered the INSA of Lyon, an engineering school, where she joined the High Level Sports Section, which provided her educational facilities and support for her various <a href='https://www.insa-lyon.fr/fr/actualites/au-dela-mots-lena-seduit-avec-sa-danse' target='blank'>artistic projects</a>.<br/>Thus, for two years, she took part in the \"dancer-performer\" training at the Désoblique center in Lyon.
       </p>
       <p>
-        Après avoir chorégraphié un solo <b>Au-delà des mots</b> primé en 2018 par <a href="http://www.etudiant.gouv.fr/pid37338/laureats-danse-2017.html">le Crous</a> ainsi que <b>Aspect</b>, un spectacle pour 6 danseurs,
-        Léna débute sa carrière professionnelle en intégrant la <i>Compagnie 39-50</i> et la <i>Compagnie La Nuit Noire</i>.
-        Elle travaille également pour le musicien <a href="http://gvdb.fr/" target="blank"><i>Gérard Vandenbroucque</i></a> en collaboration avec le
-        <a href="https://www.theoriz.com/fr/" target="blank"><i>Théoriz Studio</i></a>.
-        En 2019, Léna et <a href="johnnyyuge.eu" target="blank"> Quentin "Johnny" Guye</a> fondent le Groupe Aery dans le but d’une création jeune public.
+        After having choreographed a solo called Au-delà des mots (Beyond Words), awarded in 2018 by <a href='http://www.etudiant.gouv.fr/pid37338/laureats-danse-2017.html'>Le Crous</a>, and Aspect, a show for 6 dancers, Léna started her professional career by joining 39-50 and La Nuit Noire companies. She also worked for the musician <a href='http://gvdb.fr/' target='blank'>Gérard Vandenbroucque</a> in collaboration with the <a href='https://www.theoriz.com/fr/' target='blank'><i>Théoriz Studio</i></a>. <br/>
+        In 2019, Léna and <a href='johnnyyuge.eu' target='blank'>Quentin \"Johnny\" Guye</a> founded the Aery Group with the aim of reaching young audiences.
       </p>
       <p>
-        Passionnée par les arts et le mouvement dansé, Léna débute sa carrière dans un travail caractérisé par la recherche du mouvement libre et expressif au travers de toutes ses cellules.
+Passionate about the arts in general and the dancing moves in particular, Léna started her career with a work characterized by the searching of freedom and expressive movements through a dance punctuated by body states changes.
       </p>
     </div>
   </div>
@@ -65,13 +58,13 @@
 
 <div class="container" >
   <div class="row">
-    <h1 class="col-sm-6 head-section" (click)="listDisplayed = 'past'" [class.head-section-clicked]="listDisplayed == 'past'">Créations passés</h1>
-    <h1 class="col-sm-6 text-right head-section" (click)="listDisplayed = 'wip'" [class.head-section-clicked]="listDisplayed == 'wip'">Projets en cours</h1>
+    <h1 class="col-sm-6 head-section" (click)="listDisplayed = 'past'" [class.head-section-clicked]="listDisplayed == 'past'">Previous creations</h1>
+    <h1 class="col-sm-6 text-right head-section" (click)="listDisplayed = 'wip'" [class.head-section-clicked]="listDisplayed == 'wip'">Work in progress</h1>
   </div>
 </div>
 
-<creations-list [hide]="listDisplayed != 'past'" [creationLink]="'./assets/previous-creation.json'"></creations-list>
-<creations-list [hide]="listDisplayed != 'wip'" [creationLink]="'./assets/wip-creation.json'"></creations-list>
+<creations-list [hide]="listDisplayed != 'past'" [creationLink]="'./assets/previous-creation.en.json'"></creations-list>
+<creations-list [hide]="listDisplayed != 'wip'" [creationLink]="'./assets/wip-creation.en.json'"></creations-list>
 
 <section class="container" style="padding-top: 200px">
     <h1>Contacts</h1>
@@ -80,7 +73,7 @@
       <div class="foreground">
         <div class="row">
           <div class="col-sm-4">
-            Téléphone:
+            Phone:
           </div>
           <div class="col-sm-8">+33 6 49 30 15 26</div>
           <div class="col-sm-4">
